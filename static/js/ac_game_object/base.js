@@ -20,6 +20,7 @@ class AcGameObject{
         for(let i in Ac_Game_Object){
             if(Ac_Game_Object[i] === this){
                 Ac_Game_Object.splice(i,1);
+                break;
             }
         }
     }
